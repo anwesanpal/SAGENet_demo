@@ -1,5 +1,5 @@
 # SAGENet_demo
-Demo code for CVPR 2020 submission ID - 6308
+Demo code for SAGE-Net
 
 ## Prerequisite
 
