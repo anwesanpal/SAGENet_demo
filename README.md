@@ -35,4 +35,4 @@ conda activate sagenet_env
     cd SAGENet_demo/
 ```
 
-3. For each of the four algorithms, namely - `DR(eye)VE`, `BDDA`, `MLNet`, `PiCANet`, there is a directory called "demo_algorithm" folder. Inside these folders, there is a `demo.py` file with the first line specifying how to run the demo code. At the output of each `demo.py` file, two images will be created - `heatmap_bdda.jpg` and `heatmap_sage.jpg`. These images show the predicted maps as trained on the BDDA gaze vs our SAGE.
+4. For each of the four algorithms, namely - `DR(eye)VE`, `BDDA`, `MLNet`, `PiCANet`, there is a directory called "demo_algorithm" folder. Inside these folders, there is a `demo.py` file with the first line specifying how to run the demo code. At the output of each `demo.py` file, two images will be created - `heatmap_bdda.jpg` and `heatmap_sage.jpg`. These images show the predicted maps as trained on the BDDA gaze vs our SAGE.
