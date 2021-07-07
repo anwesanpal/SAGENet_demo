@@ -5,6 +5,7 @@ from keras.layers import Input, merge
 from keras.layers.convolutional import Convolution2D, MaxPooling2D
 from keras.regularizers import l2
 import keras.backend as K
+K.set_image_dim_ordering('th')
 import h5py
 from eltwise_product import EltWiseProduct
 import math

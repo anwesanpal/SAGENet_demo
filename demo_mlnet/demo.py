@@ -104,7 +104,7 @@ if __name__ == '__main__':
     model_sage.compile(optimizer='adam', loss='kld')
 
     model_path_bdda = "../pretrained_models/mlnet/weights.mlnet.bdda.pkl"
-    model_path_sage = "../pretrained_models/mlnet////weights.mlnet.sage.pkl"
+    model_path_sage = "../pretrained_models/mlnet/weights.mlnet.sage.pkl"
 
     model_bdda.load_weights(model_path_bdda)
     model_sage.load_weights(model_path_sage)

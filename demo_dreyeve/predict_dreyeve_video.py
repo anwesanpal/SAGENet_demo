@@ -47,7 +47,7 @@ def load_dreyeve_sample(frames_list, sample, mean_dreyeve_image, frames_per_seq=
     I_s = np.zeros(shape=(1, 3, frames_per_seq, h_s, w_s), dtype='float32')
     I_c = np.zeros(shape=(1, 3, frames_per_seq, h_c, w_c), dtype='float32')
 
-    for fr in xrange(0, frames_per_seq):
+    for fr in range(frames_per_seq):
         offset = sample - frames_per_seq + 1 + fr   # tricky
 
         x_in = cv2.resize(frames_list[offset], dsize=resize_dim_in[::-1], interpolation=cv2.INTER_LINEAR)

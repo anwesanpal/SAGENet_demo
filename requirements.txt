@@ -1,9 +1,10 @@
-numpy==1.16.4
-opencv-python==4.1.0
-torchvision==0.3.0
-matplotlib==2.0.2
+numpy
+opencv-python
+torchvision
+matplotlib
 Theano==1.0.4
 keras==1.2.2
-Pillow==6.2.0
-tqdm==4.32.2
-h5py==2.9.0
+Pillow
+tqdm
+h5py
+sk-video

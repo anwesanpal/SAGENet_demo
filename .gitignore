@@ -1,0 +1,7 @@
+*.pyc
+pretrained_models/*
+videos/*
+demo_dreyeve/demo_images/heatmap*.jpg
+demo_bdda/heatmap*.jpg
+demo_mlnet/demo_images/heatmap*.jpg
+demo_picanet/heatmap*.jpg
