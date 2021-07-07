@@ -20,8 +20,8 @@ conda activate sagenet_env
 
 2. Clone the repository as:
 ```
-    git clone https://github.com/anwesanpal/SAGENet_demo.git
-    cd SAGENet_demo/
+git clone https://github.com/anwesanpal/SAGENet_demo.git
+cd SAGENet_demo/
 ```
 
 3. Install dependencies by running `pip install -r requirements.txt`
