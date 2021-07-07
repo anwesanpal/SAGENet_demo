@@ -29,7 +29,8 @@ cd SAGENet_demo/
     "backend": "theano",
     "image_dim_ordering": "th",
     "image_data_format": "channels_first"
-}```
+}
+```
 
 5. Download the pretrained models:
 ```
