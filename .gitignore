@@ -2,6 +2,7 @@
 pretrained_models/*
 videos/*
 demo_dreyeve/demo_images/heatmap*.jpg
+demo_dreyeve/*.mp4
 demo_bdda/heatmap*.jpg
 demo_mlnet/demo_images/heatmap*.jpg
 demo_picanet/heatmap*.jpg

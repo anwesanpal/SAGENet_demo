@@ -8,3 +8,7 @@ Pillow
 tqdm
 h5py
 sk-video
+pytz
+requests
+attrs
+gdown
