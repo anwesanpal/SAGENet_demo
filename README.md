@@ -40,6 +40,8 @@ unzip pretrained_models.zip && rm -rf pretrained_models.zip
 
 6. For each of the four algorithms, namely - `DR(eye)VE`, `BDDA`, `MLNet`, `PiCANet`, there is a directory called "demo_algorithm" folder. Inside these folders, there is a `demo.py` file with the first line specifying the command line to run the demo code. At the output of each `demo.py` file, two images will be created - `heatmap_bdda.jpg` and `heatmap_sage.jpg`. These images show the predicted maps as trained on the BDDA gaze vs our SAGE.
 
+Note: For newer Theano versions, there maybe a `ERROR (theano.gpuarray): pygpu was configured but could not be imported or is too old (version 0.7 or higher required)` issue while running the `THEANO_FLAGS` command. In that case, just update the pygpu by running `conda install -c conda-forge pygpu`.
+
 7. Additionally, inside `demo_dreyeve`, there is a `predict_dreyeve_video.py` script which takes as input a video from the `videos` folder and runs detection on it. To get the videos, follow the instructions to download and save the videos in the top-level directory:
 ```
 gdown https://drive.google.com/uc?id=1u1fyG9ZAHNVZuNXYSk81ANqOeWO5O4u9

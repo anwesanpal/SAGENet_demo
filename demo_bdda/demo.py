@@ -1,4 +1,4 @@
-# Usage: python3 demo.py
+# Usage: python demo.py
 
 import sys
 sys.path.append('..')

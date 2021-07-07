@@ -1,4 +1,4 @@
-# Usage: CUDA_VISIBLE_DEVICES=0 python3 demo.py --model_dir=pretrained_models
+# Usage: CUDA_VISIBLE_DEVICES=0 python demo.py --model_dir=pretrained_models
 
 from network import Unet
 import torch
